@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<!--
+	Identity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Christina Kopecky </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <script>
+            function todayDate(){
+                        var d = new Date();
+                        var n = d.getFullYear() + "  ";
+                        return document.getElementById("date").innerHTML = n;
+                    }
+        </script>
+	</head>
+	<body onload=todayDate() >
+        <div class="wrapper">
+            <hr />
+            <form method="post" action="#">
+                <h2>Contact Me!</h2>
+                <div class="fields">
+                    <div class="field">
+                        <input type="text" name="name" id="name" placeholder="Name" />
+                    </div>
+                    <div class="field">
+                        <input type="email" name="email" id="email" placeholder="Email" />
+                    </div>
+                    <div class="field">
+                        <select name="Reason for Contact" id="reason-for-contact">
+                            <option value="reason">Reason for Contact</option>
+                            <option value="portfolio">Question About Portfolio</option>
+                            <option value="web">Freelance Opportunities for Web</option>
+                            <option value="flute">Freelance Opportunities for Flute</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="other">Other</option>
+
+                        </select>
+                    </div>
+                    <div class="field">
+                        <textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+                    </div>
+                    <div class="field">
+                        <input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
+                    </div>
+                    <div class="field">
+                        <label>But are you a robot?</label>
+                        <input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
+                        <input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
+                    </div>
+                </div>
+                <ul class="actions special">
+                    <li><a href="#" class="button">Submit</a></li>
+                </ul>
+            </form>
+            <footer id="footer">
+                <ul class="copyright">
+                    <li>&copy; <span id="date"></span>Christina Kopecky</li>
+                </ul>
+            </footer>
+        </div>
+        <!-- Scripts -->
+        <script>
+            if ('addEventListener' in window) {
+                window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+                document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+            }
+        </script>
+
+    </body>
+</html>
+        
