@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Christina Kopecky</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" type='image/x-icon' href='./images/favicon.ico' />
+		<script>
+			function todayDate(){
+				var d = new Date();
+				var n = d.getFullYear() + "  ";
+				return document.getElementById("date").innerHTML = n;
+			}
+		</script>
+	</head>
+	<body onload=todayDate() class="is-preload">
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#work">Work</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="images/profile-pic.jpg" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header style="line-height: 1.25">
+								<h1>Hi. I'm <strong>Christina Kopecky</strong>.</h1>
+							</header>
+							<p>I am a Full Stack Software Engineer</p>
+							<a href="#work" class="button large scrolly">Learn about what I do</a>
+						</div>
+					</div>
+				</div>
+			</article>
+
+		<!-- Work -->
+			<article id="work" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>My experience:</h2>
+						
+					</header>
+					<div class="row aln-center">
+						<div class="height-card aln-middle col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon featured fa-laptop"></span>
+								<h3>Full-Stack Software Engineer</h3>
+								<p>Alumnae of <span><a style="text-decoration: none; color:black" href="http://www.lambdaschool.com">Lambda School</a>'s</span> Full Stack Web Development and Computer Science Program</p>
+							</section>
+						</div>
+						<div class="height-card aln-middle col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon featured fa-music"></span>
+								<h3>Professional Flutist and Private Flute Instructor</h3>
+								<p>Obtained Master of Music Degree in Flute Performance where the main focus was on how flutists' anatomy affected their playing </p>
+							</section>
+						</div>
+						<div class="height-card aln-middle col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon featured fa-microphone"></span>
+								<h3>Radio Announcer</h3>
+								<p>News and classical music announcer for almost a decade in a non-commercial/non-profit setting.</p>
+							</section>
+						</div>
+					</div>
+					<footer>
+						<p>Interested to Learn More About Me?</p>
+						<a href="#portfolio" class="button large scrolly">See some of my recent work</a>
+					</footer>
+				</div>
+				<!-- <a href="#top">Back to Top</a> -->
+
+			</article>
+
+		<!-- Portfolio -->
+			<article id="portfolio" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Here’s some stuff I made recently:</h2>
+						<!-- <p>To view detailed information, please see </p> -->
+					</header>
+					<div class="row">
+						<div class="height-card col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="./cineview.html" class="image featured"><img src="images/Screenshot_Cineview.png" alt="" /></a>
+								<h3><a href="#">CineView</a></h3>
+								<p>A movie reviews application that allows users to read reviews that others have written and also to write reviews.</p>
+								<p>Built using PostgreSQL, Express, React.js, Node</p>
+							</article>
+						</div>
+						<div class="height-card col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/Screenshot_Sorting-Hat.png" alt="" /></a>
+								<h3><a href="#">Sorting Hat Quiz</a></h3>
+								<p>You've just been accepted to Hogwarts! Let's sort you into your house with this quiz.</p>
+								<p>Built using React.js</p>
+							</article>
+						</div>
+						<div class="height-card col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/Screenshot_Google-Clone.png" alt="" /></a>
+								<h3><a href="#">React Google Clone</a></h3>
+								<p>A functional React Google clone</p>
+								<p>Built using React.js</p>
+							</article>
+						</div>
+						<div class="height-card col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/Screenshot_Pokemon.png" alt="" /></a>
+								<h3><a href="#">Go Pokemon Flashcards</a></h3>
+								<p>A toy application that has flashcards that flip to show Pokemon specs.</p>
+								<p>Built using React.js, Reactstrap and json-server (to serve Pokemon data)</p>
+							</article>
+						</div>
+						<div class="height-card col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/Screenshot_Instagram.png" alt="" /></a>
+								<h3><a href="#">React Instagram Clone</a></h3>
+								<p>A non-functional, UI practice problem that recreated an Instagram feed</p>
+								<p>Built using React</p>
+							</article>
+						</div>
+						<div class="height-card col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/Screenshot_Great-Idea.png" alt="" /></a>
+								<h3><a href="#">Great Idea Web Page</a></h3>
+								<p>A marketing site for 'Great Idea' that follows client specifications.</p>
+								<p>Built using HTML, CSS w/Flexbox</p>
+							</article>
+						</div>
+					</div>
+					<footer>
+						<p>Like what you see here? Please get in touch with me!</p>
+						<a href="#contact" class="button large scrolly"> Contact Me</a>
+					</footer>
+				</div>
+				<!-- <a href="#top">Back to Top</a> -->
+			</article>
+
+
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+					<header>
+						<h2>Contact Me:</h2>
+						<p>I'm happy to help!</p>
+					</header>
+					<div class="row">
+						<div class="col-12">
+							<form action="https://formspree.io/kopecky12112@gmail.com" method="POST">
+								<div class="row">
+									<div class="col-6 col-12-small">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="text" name="_replyto" id="email" placeholder="Email" />
+									</div>
+									<div class="col-12">
+										<input type="text" name="subject" id="subject" placeholder="Subject" />
+									</div>
+									<div class="col-12">
+										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Send"/></li>
+											<li><input type="reset" value="Clear Form" class="alt" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="col-12">
+							<hr />
+							<h3>Find me on ...</h3>
+							<ul class="social">
+								<li><a href="https://www.twitter.com/flute1952" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.linkedin.com/in/cmvnk" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://www.github.com/ckopecky" class="icon fa-github"><span class="label">Github</span></a></li>
+							</ul>
+							<hr />
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; <span id="date"></span>Christina Kopecky. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+				</div>
+				<!-- <a href="#top">Back to Top</a> -->
+			</article>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
