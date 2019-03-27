@@ -1657,6 +1657,34 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
+		
+/* app-about after image*/
+
+.app-about {
+	margin: 20px auto;
+	text-align: left;
+	width: 65%;
+}
+
+.about-links {
+	width: 35%;
+	border: 1px solid black;
+	background: lightgray;
+	height: 100px;
+	padding: 20px;
+}
+
+#portfolio footer {
+	width: 65%;
+	margin: 20px auto;
+	text-align: left;
+}
+
+#portfolio footer p {
+	width: 100%;
+	float: left;
+	margin: 20px 0px;
+}
 
 /* Button */
 
